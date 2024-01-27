@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.carousel__button--prev,
+.carousel__button--next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.carousel__button--prev { left: 10px; }
+.carousel__button--next { right: 10px; }
+
+.carousel__track-container {
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+
+.carousel__track {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.carousel__slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel__content {
+    text-align: center;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto;
+}
+
+.carousel__nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel__indicator {
+    display
